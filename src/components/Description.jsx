@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Clima from '../assets/CLIMA HOY.png'
 const Description = () => {
   return (
     <>
     <div className='container-fluid w-100 h-75 d-flex p-0'>
-      <img className='img-fluid w-100' style={{objectFit:'contain', maxHeight:'900px'}} src="https://i0.wp.com/enlacelatinonc.org/wp-content/uploads/2022/04/El-Clima-hoy.jpg?fit=1200%2C676&ssl=1" alt="weather-states" />
+      <img className='img-fluid w-100' style={{objectFit:'contain', maxHeight:'900px'}} src={Clima} alt="weather-states" />
    </div>
     <div className='container-fluid mt-4 d-flex flex-column align-items-center justify-content-center'>
     <h1 className='text-info'>¿Cómo funciona?</h1>
